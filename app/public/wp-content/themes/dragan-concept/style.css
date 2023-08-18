@@ -4,3 +4,140 @@ Author: Dragan
 Description: Thème personnalisé pour Portfolio
 Version: 1.0
 */
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      max-width: 100%; 
+    }
+  }
+  /* Styles du Header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    padding-left: 2vw;
+  }
+  
+  .menu .menu-list {
+    list-style: none;
+    margin-right: 5rem;
+    padding: 0;
+    display: flex;
+  }
+
+  .menu .menu-list li {
+    margin-left: 3rem;
+  }
+
+  .menu .menu-list li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'roboto';
+  }
+  
+  /* Styles du Footer */
+  footer {
+    background-color: #f2f7fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    margin-bottom: 0;
+  }
+  
+  .contact-section a {
+    color: #0000ff;
+  }
+  
+  .legal-section {
+    margin-top: 20px;
+  }
+  
+  .legal-section a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  /* Section Hero */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    margin: 0 5vw;  
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+}
+
+.hero-text {
+    padding-top: 20px;
+}
+
+.hero-text h1, .hero-text p {
+    font-family: 'Ultra', serif;
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.man-laptop {
+    width: 100%;
+    height: auto;
+}
+
+/* Section à propos */
+.about-section {
+    background-color: #f2f7fa;
+    padding: 2rem 0;
+}
+
+.about-heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about-heading h2 {
+    font-size: 36px;
+}
+
+.about-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+}
+
+.about-text a {
+    color: #0000ff;
+}
