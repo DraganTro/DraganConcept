@@ -41,6 +41,12 @@ get_header();
     </div>
 </section>
 
+
+    <?php
+    get_template_part('content', 'portfolio');
+    ?>
+
+
 <section class="section-6">
   <div class="heading">
     <h2>Mes réalisations</h2>
