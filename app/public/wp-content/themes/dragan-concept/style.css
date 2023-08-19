@@ -73,7 +73,6 @@ body {
   .legal-section a {
     color: #000;
     text-decoration: none;
-    margin-right: 10px;
   }
 
   /* Section Hero */
@@ -81,6 +80,7 @@ body {
     display: flex;
     align-items: center;
     margin: 0 5vw;  
+    margin-bottom: 5vw;
 }
 
 .hero-content {
@@ -103,6 +103,53 @@ body {
 .man-laptop {
     width: 100%;
     height: auto;
+}
+
+/* Mouse Styling */
+.mouse {
+  display: block;
+  width: 20px;
+  height: 40px;
+  border-radius: 15px;
+  border: 4px solid #000;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  margin-left: -13px;
+  z-index: 9999;
+}
+
+.mouse span {
+  display: block;
+  margin: 6px auto;
+  width: 2px;
+  height: 5px;
+  border-radius: 4px;
+  background: #000;
+  border: 3px solid transparent;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+	}
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+	}
 }
 
 /* Section à propos */
@@ -140,4 +187,221 @@ body {
 
 .about-text a {
     color: #0000ff;
+}
+
+/* Page à propos */
+.about-me {
+  margin: 7rem 5rem;
+}
+
+/* Page contact */
+.flying-cat-content {
+  display: flex;
+  justify-content: center;
+  margin: 5rem auto;
+}
+
+.flying-cat-content {
+  margin: 12rem 5rem;
+}
+
+.flying-cat-text {
+  align-self: center;
+  margin-left: 5rem;
+}
+
+.flying-cat-text h2, .here-section h2 {
+  font-family: 'Ultra', serif;
+  font-weight: normal;
+  font-size: 42px;
+}
+
+.flying-cat-image img {
+  width: 30vw;
+}
+
+.here-section {
+  margin: 5rem 5rem;
+}
+
+
+
+
+/* Core Styles */
+
+.section-6 *,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+    margin-bottom: 1em;
+}
+
+.heading h2 {
+  color: #000;
+}
+
+.figure {
+  background: #1d1d1d;
+  display: inline-block;
+  margin: 10px;
+  max-width: 55vh;
+  max-height: 40vh;
+  min-width: 20vh;
+  height: 35vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  border-radius: 20px;
+  border: solid 4px #000;
+  object-fit: contain;
+  
+}
+
+.figure * {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+/* Section 6 - Hover Effect 6 */
+
+.section-6 {
+  text-align: center;
+  padding: 1.5em 1em;
+  color: #efefef;
+  margin: 5rem 0 5rem 0;
+}
+
+.section-6 .figure {
+  text-align: left;
+  background: #1d1d1d;
+  font-size: 16px;
+}
+
+.section-6 .figure img {
+  position: relative;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.section-6 figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  padding: 20px 30px;
+}
+
+.section-6 .figure figcaption:before,
+.section-6 .figure figcaption:after {
+  width: 1px;
+  height: 0;
+  background-color: #000;
+}
+
+.section-6 .figure figcaption:before {
+  right: 0;
+  top: 0;
+}
+
+.section-6 .figure figcaption:after {
+  left: 0;
+  bottom: 0;
+}
+
+.section-6 .figure h3,
+.section-6 .figure p {
+  line-height: 1.5em;
+}
+
+.section-6 .figure h3 {
+  margin: 0 0 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.section-6 .figure p {
+  font-size: 0.8em;
+  font-weight: 400;
+  margin: 0 0 15px;
+}
+
+.section-6 .figure a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.section-6 .figure:before,
+.section-6 .figure:after,
+.section-6 .figure figcaption:before,
+.section-6 .figure figcaption:after {
+  position: absolute;
+  content: '';
+  background-color: #efefef;
+  z-index: 1;
+  -webkit-transition: all 0.35s ease-in;
+  transition: all 0.35s ease-in;
+  opacity: 0.8;
+}
+
+.section-6 .figure:before,
+.section-6 .figure:after {
+  height: 1px;
+  width: 0%;
+}
+
+.section-6 .figure:before {
+  top: 0;
+  left: 0;
+}
+
+.section-6 .figure:after {
+  bottom: 0;
+  right: 0;
+}
+
+.section-6 .figure:hover img,
+.section-6 .figure.hover img {
+  opacity: 0.4;
+}
+
+.section-6 .figure:hover figcaption:before,
+.section-6 .figure.hover figcaption:before,
+.section-6 .figure:hover figcaption:after,
+.section-6 .figure.hover figcaption:after {
+  height: 100%;
+}
+
+.section-6 .figure:hover figcaption {
+  opacity: 1;
+}
+
+.section-6 .figure:hover:before,
+.section-6 .figure.hover:before,
+.section-6 .figure:hover:after,
+.section-6 .figure.hover:after {
+  width: 100%;
+}
+
+.section-6 .figure:hover:before,
+.section-6 .figure.hover:before,
+.section-6 .figure:hover:after,
+.section-6 .figure.hover:after,
+.section-6 .figure:hover figcaption:before,
+.section-6 .figure.hover figcaption:before,
+.section-6 .figure:hover figcaption:after,
+.section-6 .figure.hover figcaption:after {
+  opacity: 0.1;
 }
