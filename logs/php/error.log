@@ -1,1 +1,64 @@
 [19-Aug-2023 16:26:52 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[20-Aug-2023 11:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 15
+[20-Aug-2023 11:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 11:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 11:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 11:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 11:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 11:13:28 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 13:47:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 15
+[20-Aug-2023 13:47:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 13:47:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 13:47:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 13:47:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 13:47:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 13:47:01 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 14:04:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 15
+[20-Aug-2023 14:04:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 14:04:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 14:04:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 14:04:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 14:04:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 14:04:08 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 14:07:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 15
+[20-Aug-2023 14:07:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 14:07:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 14:07:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 14:07:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 14:07:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 14:07:25 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 14:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 15
+[20-Aug-2023 14:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 14:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 25
+[20-Aug-2023 14:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 14:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 32
+[20-Aug-2023 14:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 14:07:56 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-portfolio.php on line 35
+[20-Aug-2023 18:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\front-page.php:57
+Stack trace:
+#0 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-blog-header.php(19): require_once('C:\\Users\\draga\\...')
+#2 C:\Users\draga\Local Sites\dragan-concept\app\public\index.php(17): require('C:\\Users\\draga\\...')
+#3 {main}
+  thrown in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\front-page.php on line 57
+[20-Aug-2023 18:07:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\page-portfolio.php:23
+Stack trace:
+#0 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-blog-header.php(19): require_once('C:\\Users\\draga\\...')
+#2 C:\Users\draga\Local Sites\dragan-concept\app\public\index.php(17): require('C:\\Users\\draga\\...')
+#3 {main}
+  thrown in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\page-portfolio.php on line 23
+[20-Aug-2023 18:07:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\front-page.php:57
+Stack trace:
+#0 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-blog-header.php(19): require_once('C:\\Users\\draga\\...')
+#2 C:\Users\draga\Local Sites\dragan-concept\app\public\index.php(17): require('C:\\Users\\draga\\...')
+#3 {main}
+  thrown in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\front-page.php on line 57
+[20-Aug-2023 18:08:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\page-portfolio.php:23
+Stack trace:
+#0 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\draga\Local Sites\dragan-concept\app\public\wp-blog-header.php(19): require_once('C:\\Users\\draga\\...')
+#2 C:\Users\draga\Local Sites\dragan-concept\app\public\index.php(17): require('C:\\Users\\draga\\...')
+#3 {main}
+  thrown in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\page-portfolio.php on line 23
