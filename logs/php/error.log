@@ -62,3 +62,27 @@ Stack trace:
 #2 C:\Users\draga\Local Sites\dragan-concept\app\public\index.php(17): require('C:\\Users\\draga\\...')
 #3 {main}
   thrown in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\page-portfolio.php on line 23
+[20-Aug-2023 19:49:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:49:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:49:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:49:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:49:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39
+[20-Aug-2023 19:49:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39
+[20-Aug-2023 19:49:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:49:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:49:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:49:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:49:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39
+[20-Aug-2023 19:49:49 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39
+[20-Aug-2023 19:49:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:49:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:49:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:49:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:49:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39
+[20-Aug-2023 19:49:59 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39
+[20-Aug-2023 19:50:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:50:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 29
+[20-Aug-2023 19:50:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:50:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 36
+[20-Aug-2023 19:50:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39
+[20-Aug-2023 19:50:39 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-content\themes\dragan-concept\single-projet.php on line 39

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Template Name: Projet Single
+ * Template Post Type: post, projet // Assurez-vous que "projet" est bien spécifié ici
+ */
 
 get_header();
 
@@ -39,6 +43,7 @@ if (have_posts()) :
  <?php
     endwhile;
  endif;
+
 
 get_footer();
 ?>
