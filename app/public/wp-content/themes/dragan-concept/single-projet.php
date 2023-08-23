@@ -34,12 +34,12 @@ if (have_posts()) :
        </div>
     </section>
  
-    <section class="portfolio-single-section">
+    <section class="portfolio-single-section portfolio-single-section-2">
        <div class="portfolio-single-additional-images">
-          <div class="portfolio-single-additional-image">
+          <div class="portfolio-single-additional-image portfolio-single-additional-image-mobile">
              <img src="<?php echo esc_url($image3['url']); ?>" alt="Additional Image 3">
           </div>
-          <div class="portfolio-single-additional-image">
+          <div class="portfolio-single-additional-image portfolio-single-additional-image-4">
              <img src="<?php echo esc_url($image4['url']); ?>" alt="Additional Image 4">
           </div>
        </div>

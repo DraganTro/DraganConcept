@@ -13,9 +13,8 @@
 
     <header>
         <div class="logo">
-        <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/2023/08/Logo-DC-min.png' ) ); ?>" alt="Logo"></a>
+        <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo esc_url( home_url( '/wp-content/uploads/2023/08/Logo_DC2OK2recadre.png' ) ); ?>" alt="Logo"></a>
         </div>
-        
         <nav class="menu">
             <?php
                 // Affichage du menu principal
@@ -26,9 +25,27 @@
                 ));
             ?>
         </nav>
+
+        <input id="toggle" type="checkbox"></input>
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+
+<div class="nav">
+  <div class="nav-wrapper">
+    <nav>
+            <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'mobile-menu', 'menu_class' => 'mobile-menu-list' // Emplacement du menu
+                ));
+            ?>
+    </nav>
+  </div>
+
     </header>
 
-    <!-- Le reste du contenu de votre site -->
 
     <?php wp_footer(); ?>
 </body>

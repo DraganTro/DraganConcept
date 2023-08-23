@@ -22,7 +22,7 @@ get_header();
                 $query->the_post();
                 $image = get_field('image'); // Remplacez 'image' par le nom du champ ACF correspondant à l'image du projet
                 $titre = get_the_title();
-                $intro = get_field('intro'); // Remplacez 'intro' par le nom du champ ACF correspondant à l'introduction du projet
+                $techno = get_field('techno'); // Remplacez 'intro' par le nom du champ ACF correspondant à l'introduction du projet
                 $lien = get_permalink();
 
                 // Classe CSS pour l'alignement de l'image et du texte
@@ -36,7 +36,7 @@ get_header();
                     </div>
                     <div class="project-content">
                         <h2><?php echo $titre; ?></h2>
-                        <p><?php echo $intro; ?></p>
+                        <p><?php echo $techno; ?></p>
                         <a href="<?php echo $lien; ?>" class="btn-en-savoir-plus">En savoir plus</a>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ function theme_setup() {
     // Enregistre un emplacement de menu principal
     register_nav_menus(array(
         'primary-menu' => __('Menu principal', 'dragan-concept'),
+        'mobile-menu' => __('Menu mobile', 'dragan-concept'),
     ));
 }
 add_action('after_setup_theme', 'theme_setup');
@@ -15,10 +16,16 @@ function theme_enqueue_styles() {
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
-// Chargement du script.js
+// Chargement de jQuery et du script.js
 function theme_enqueue_scripts() {
-    wp_enqueue_script('script', get_template_directory_uri() . '/../js/script.js', array(), '1.0', true);
+    // Enqueue WordPress-bundled jQuery
+    wp_enqueue_script('jquery');
+
+    // Enqueue your custom script
+    wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array('jquery'), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_scripts');
+?>
+
 
 
