@@ -26,7 +26,7 @@ get_header();
         </div>
 </section>
 
-<section class="about-section">
+<section class="about-section fade-in-up-about">
     <div class="about-heading">
         <h2>À propos</h2>
     </div>
@@ -36,7 +36,7 @@ get_header();
             <p>Bienvenue dans l'univers où chaque ligne de code est une note de musique dans une symphonie numérique.</p>
             <p>Je vous invite à plonger dans mon monde de développement, où la technologie rencontre l'art pour façonner des expériences en ligne uniques.</p>
             <p>Explorez mes projets, admirez les détails et laissez-vous emporter par le mariage parfait entre l'innovation technique et l'esthétique captivante.</p>
-            <p><a href="#">En savoir plus...</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_title('À propos'))); ?>">En savoir plus...</a></p>
         </div>
     </div>
 </section>
@@ -75,6 +75,10 @@ get_header();
       wp_reset_postdata();
    endif;
    ?>
+
+    <div class="cta-section">
+        <a href="<?php echo esc_url(get_permalink(get_page_by_title('Portfolio'))); ?>" class="cta-button">Voir plus</a>
+    </div>
 </section>
 
 

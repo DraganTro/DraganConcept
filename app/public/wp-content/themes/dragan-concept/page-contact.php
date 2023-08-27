@@ -7,7 +7,7 @@ get_header();
 
 <section class="hero-section">
     <div class="hero-content">
-        <div class="hero-text">
+        <div class="hero-text animate-from-left">
             <h1>Vous y êtes presque!</h1>
             <p>Plus qu’un pas à faire...</p>
             <p>Pour avoir votre site personnalisé</p>
@@ -26,16 +26,16 @@ get_header();
 <section class="flying-cat-section">
     <div class="flying-cat-content">
         <div class="flying-cat-image">
-            <img class="flying-cat" src="<?php echo esc_url( home_url( '/wp-content/uploads/2023/08/chat-volant.png' ) ); ?>" alt="Chat volant sur un balai">
+            <img class="flying-cat floating-cat" src="<?php echo esc_url( home_url( '/wp-content/uploads/2023/08/chat-volant.png' ) ); ?>" alt="Chat volant sur un balai">
         </div>
         <div class="flying-cat-text">
-            <h2>Ups...</h2>
+            <h2 class="animate-from-right">Ups...</h2>
         </div>
     </div>
 </section>
 
 <section class="here-section">
-    <h2>C'est ici...</h2>
+    <h2 class="animate-from-left">C'est ici...</h2>
 </section>
 
 

@@ -166,6 +166,27 @@ header {
   }
 }
 
+/* Animations page accueil */
+.fade-in-up-about.inview {
+  animation: slideUpAnimation 2s ease-out;
+  opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
+  animation-fill-mode: forwards;
+  
+}
+
+@keyframes slideUpAnimation {
+  0% {
+      transform: translateY(100%); /* Commence en dehors de l'écran */
+      opacity: 0;
+      
+  }
+  100% {
+      transform: translateY(0); /* Termine à sa position normale */
+      opacity: 1;
+  }
+}
+
+
 /* Mouse Styling */
 .mouse {
   display: block;
@@ -216,6 +237,7 @@ header {
 /* Section à propos */
 .about-section {
     background-color: #f2f7fa;
+    margin-top: 5rem;
     padding: 2rem 0;
 }
 
@@ -255,7 +277,17 @@ header {
   margin: 7rem 5rem;
 }
 
+.page-id-12 .hero-text {
+  padding-top: 5rem;
+  padding-bottom: 20rem;
+}
+
 /* Page contact */
+.page-id-16 .hero-section {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
 .cat-screen, .cat-laptop {
   max-width: 100%;
 }
@@ -284,6 +316,56 @@ header {
 .flying-cat-image img {
   width: 30vw;
 }
+
+/* Animations page contact */
+.animate-from-right.inview {
+  /* Propriétés d'animation pour l'apparition depuis la droite */
+  animation: slideFromRightAnimation 3s ease-out;
+  opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
+}
+
+@keyframes slideFromRightAnimation {
+  0% {
+      transform: translateX(300%); /* Commence en dehors de l'écran */
+  }
+  100% {
+      transform: translateX(0); /* Termine à sa position normale */
+  }
+}
+
+.animate-from-left.inview {
+  /* Propriétés d'animation pour l'apparition depuis la droite */
+  animation: slideFromLeftAnimation 2s ease-out;
+  opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
+}
+
+@keyframes slideFromLeftAnimation {
+  0% {
+      transform: translateX(-100%); /* Commence en dehors de l'écran */
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0); /* Termine à sa position normale */
+      opacity: 1;
+  }
+}
+
+
+
+.floating-cat.inview {
+  /* Propriétés d'animation pour le flottement accentué */
+  animation: floatAnimation 3s infinite ease-in-out;
+}
+
+@keyframes floatAnimation {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px); /* Amplitude plus grande pour un flottement accentué */
+  }
+}
+
 
 .here-section {
   margin: 5rem 5rem;
@@ -368,6 +450,26 @@ header {
   text-align: center;
   font-size: 32px;
   margin-top: 5rem;
+}
+
+/* Styles CTA page accueil section portfolio */
+.cta-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #cc0000;
 }
 
 /* Styles for the portfolio single section */
