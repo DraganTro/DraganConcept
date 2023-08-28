@@ -167,16 +167,52 @@ header {
 }
 
 /* Animations page accueil */
-.fade-in-up-about.inview {
-  animation: slideUpAnimation 2s ease-out;
-  opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
+.hero-text {
+  opacity: 0;
+}
+
+.hero-text h1,
+.hero-text p {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.hero-text h1 {
+  transition-delay: 0.2s;
+}
+
+.hero-text p:nth-of-type(1) {
+  transition-delay: 1.6s;
+}
+
+.hero-text p:nth-of-type(2) {
+  transition-delay: 1s;
+}
+
+.hero-text.inview {
+  opacity: 1;
+}
+
+.hero-text.inview h1,
+.hero-text.inview p {
+  opacity: 1;
+}
+
+
+
+.fade-in-up-about, .fade-in-up-card {
+  opacity: 0;
+  transform: translateY(50%);
+}
+
+.fade-in-up-about.inview, .fade-in-up-card.inview {
+  animation: slideUpAnimation 1s ease-out;
   animation-fill-mode: forwards;
-  
 }
 
 @keyframes slideUpAnimation {
   0% {
-      transform: translateY(100%); /* Commence en dehors de l'écran */
+      transform: translateY(50%); /* Commence en dehors de l'écran */
       opacity: 0;
       
   }
@@ -185,6 +221,63 @@ header {
       opacity: 1;
   }
 }
+
+/* Coffee smoke */
+.steam {
+  position: absolute;
+  right: 33rem;
+  top: 24rem;
+  height: 40px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-top: -75px;
+  margin-left: 75px;
+  z-index: 0;
+  opacity: 0;
+}
+
+#steam1 {
+  -webkit-animation: steam1 8s ease-out infinite;
+  animation: steam1 8s ease-out infinite;
+}
+
+#steam3 {
+  -webkit-animation: steam1 8s ease-out 1s infinite;
+  animation: steam1 8s ease-out 1s infinite;
+}
+
+@-webkit-keyframes steam1 {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+}
+
+@keyframes steam1 {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  100% {transform: translateY(-200px) translateX(-20px) scale(1); opacity: 0;}
+}
+
+#steam2 {
+  -webkit-animation: steam2 8s ease-out 0.5s infinite;
+  animation: steam2 8s ease-out 0.5s infinite;
+}
+
+#steam4 {
+  -webkit-animation: steam2 8s ease-out 1.5s infinite;
+  animation: steam2 8s ease-out 1.5s infinite;
+}
+
+@-webkit-keyframes steam2 {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+}
+
+@keyframes steam2 {
+  0% {transform: translateY(0) translateX(0) scale(0.25); opacity: 0.2;}
+  100% {transform: translateY(-200px) translateX(20px) scale(1); opacity: 0;}
+}
+
+
 
 
 /* Mouse Styling */
@@ -196,7 +289,7 @@ header {
   border: 4px solid #000;
   position: absolute;
   left: 50%;
-  top: 85%;
+  top: 95%;
   margin-left: -13px;
   z-index: 9999;
 }
@@ -282,6 +375,12 @@ header {
   padding-bottom: 20rem;
 }
 
+@media screen and (max-width: 768px) {
+  .page-id-12 .hero-text {
+    padding-top: 20rem;
+  }
+}
+
 /* Page contact */
 .page-id-16 .hero-section {
   padding-top: 2rem;
@@ -317,7 +416,14 @@ header {
   width: 30vw;
 }
 
+@media screen and (max-width: 768px) {
+  .flying-cat-text h2, .here-section h2 {
+    font-size: 36px;
+  }
+}
+
 /* Animations page contact */
+@media screen and (min-width: 1200px) {
 .animate-from-right.inview {
   /* Propriétés d'animation pour l'apparition depuis la droite */
   animation: slideFromRightAnimation 3s ease-out;
@@ -350,8 +456,6 @@ header {
   }
 }
 
-
-
 .floating-cat.inview {
   /* Propriétés d'animation pour le flottement accentué */
   animation: floatAnimation 3s infinite ease-in-out;
@@ -366,7 +470,6 @@ header {
   }
 }
 
-
 .here-section {
   margin: 5rem 5rem;
 }
@@ -376,6 +479,8 @@ header {
     font-size: 32px;
   }
 }
+}
+
 
 /* Portfolio cards */
 
@@ -448,14 +553,14 @@ header {
 
 .my-projects {
   text-align: center;
-  font-size: 32px;
-  margin-top: 5rem;
+  font-size: 36px;
+  margin-top: 7rem;
 }
 
 /* Styles CTA page accueil section portfolio */
 .cta-section {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 5rem;
 }
 
 .cta-button {
