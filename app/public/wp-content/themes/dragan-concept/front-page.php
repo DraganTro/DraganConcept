@@ -18,6 +18,8 @@ get_header();
         <div class="hero-image">
         <img class="man-laptop" src="<?php echo esc_url( home_url( '/wp-content/uploads/2023/08/homme-assis-ordinateur.png' ) ); ?>" alt="Homme assis devant un ordinateur portable">
         </div>
+        <div class="circle"></div>
+        <div class="circle2"></div>
         <div id="container">
             <div class="steam" id="steam1"> </div>
             <div class="steam" id="steam2"> </div>
@@ -84,7 +86,7 @@ get_header();
    ?>
 
     <div class="cta-section">
-        <a href="<?php echo esc_url(get_permalink(get_page_by_title('Portfolio'))); ?>" class="cta-button">Voir plus</a>
+        <a href="<?php echo esc_url(get_permalink(get_page_by_title('Portfolio'))); ?>" class="cta-button">Decouvrez...</a>
     </div>
 </section>
 

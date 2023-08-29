@@ -12,6 +12,7 @@ if (have_posts()) :
        $title = get_the_title();
        $techno = get_field('techno');
        $description = get_field('description');
+       $link = get_field('github');
        $image = get_field('image');
        $image2 = get_field('image2');
        $image3 = get_field('image3');
@@ -28,6 +29,7 @@ if (have_posts()) :
           <h2><?php echo esc_html($title); ?></h2>
           <p><?php echo esc_html($techno); ?></p>
           <p><?php echo esc_html($description); ?></p>
+          <a href="<?php echo $link; ?>" class="btn-en-savoir-plus" target="_blank">Voir sur GitHub</a>
        </div>
        <div class="portfolio-single-additional-image">
           <img src="<?php echo esc_url($image2['url']); ?>" alt="Additional Image 2">

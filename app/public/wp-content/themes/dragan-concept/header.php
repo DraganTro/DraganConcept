@@ -3,6 +3,8 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo wp_get_document_title(); ?></title>
+    <meta name="description" content="Optimisez votre présence en ligne avec notre agence web spécialisée WordPress. Nous offrons des services d'intégration web de qualité, des designs modernes et une expertise en référencement. Contactez-nous dès maintenant pour booster votre visibilité sur les moteurs de recherche.">
     <?php wp_head(); ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

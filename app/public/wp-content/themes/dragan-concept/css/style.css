@@ -31,6 +31,10 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
+background: #f2f7fa;
+box-shadow:  12px 12px 10px #dce1e4,
+             -12px -12px 10px #ffffff;
 }
 
 .logo {
@@ -62,6 +66,8 @@ header {
     background-color: #f2f7fa;
     padding: 20px;
     text-align: center;
+    box-shadow: 12px -12px 10px #dce1e4, 
+               -12px -12px 10px #ffffff;
   }
   
   .contact-section h2 {
@@ -117,6 +123,7 @@ header {
 .man-laptop {
   width: 100%;
   height: auto;
+  margin-top: 2rem;
 }
 
 /* Media queries pour les écrans de petite taille */
@@ -222,11 +229,46 @@ header {
   }
 }
 
+/* Rond lumineux */
+.circle {
+  position: relative;
+  width: 21px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  animation: color-change 4s infinite;
+  transition: background-color 0.5s ease;
+  right: 6.6rem;
+  top: 20.9rem;
+}
+
+@keyframes color-change {
+  0% { background-color: red; }
+  50% { background-color: blue; }
+  100% { background-color: green; }
+}
+
+.circle2 {
+  position: relative;
+  width: 19px;
+  height: 12px;
+  border-radius: 50%;
+  animation: color-change 2s infinite;
+  right: 7.4rem;
+  top: 22.9rem;
+}
+
+@keyframes color-change {
+  0% { background-color: red; }
+  50% { background-color: blue; }
+  100% { background-color: green; }
+}
+
 /* Coffee smoke */
 .steam {
   position: absolute;
-  right: 33rem;
-  top: 24rem;
+  right: 34rem;
+  top: 25rem;
   height: 40px;
   width: 10px;
   border-radius: 50%;
@@ -332,6 +374,7 @@ header {
     background-color: #f2f7fa;
     margin-top: 5rem;
     padding: 2rem 0;
+    box-shadow: 0px 12px 10px #dce1e4, 0px -12px 10px #dce1e4;
 }
 
 .about-heading {
@@ -362,124 +405,10 @@ header {
 }
 
 .about-text a {
-    color: #0000ff;
+    color: #72aee6;
 }
 
-/* Page à propos */
-.about-me {
-  margin: 7rem 5rem;
-}
 
-.page-id-12 .hero-text {
-  padding-top: 5rem;
-  padding-bottom: 20rem;
-}
-
-@media screen and (max-width: 768px) {
-  .page-id-12 .hero-text {
-    padding-top: 20rem;
-  }
-}
-
-/* Page contact */
-.page-id-16 .hero-section {
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-}
-
-.cat-screen, .cat-laptop {
-  max-width: 100%;
-}
-
-.flying-cat-content {
-  display: flex;
-  justify-content: center;
-  margin: 5rem auto;
-}
-
-.flying-cat-content {
-  margin: 12rem 5rem;
-}
-
-.flying-cat-text {
-  align-self: center;
-  margin-left: 5rem;
-}
-
-.flying-cat-text h2, .here-section h2 {
-  font-family: 'Ultra', serif;
-  font-weight: normal;
-  font-size: 42px;
-}
-
-.flying-cat-image img {
-  width: 30vw;
-}
-
-@media screen and (max-width: 768px) {
-  .flying-cat-text h2, .here-section h2 {
-    font-size: 36px;
-  }
-}
-
-/* Animations page contact */
-@media screen and (min-width: 1200px) {
-.animate-from-right.inview {
-  /* Propriétés d'animation pour l'apparition depuis la droite */
-  animation: slideFromRightAnimation 3s ease-out;
-  opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
-}
-
-@keyframes slideFromRightAnimation {
-  0% {
-      transform: translateX(300%); /* Commence en dehors de l'écran */
-  }
-  100% {
-      transform: translateX(0); /* Termine à sa position normale */
-  }
-}
-
-.animate-from-left.inview {
-  /* Propriétés d'animation pour l'apparition depuis la droite */
-  animation: slideFromLeftAnimation 2s ease-out;
-  opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
-}
-
-@keyframes slideFromLeftAnimation {
-  0% {
-      transform: translateX(-100%); /* Commence en dehors de l'écran */
-      opacity: 0;
-  }
-  100% {
-      transform: translateX(0); /* Termine à sa position normale */
-      opacity: 1;
-  }
-}
-
-.floating-cat.inview {
-  /* Propriétés d'animation pour le flottement accentué */
-  animation: floatAnimation 3s infinite ease-in-out;
-}
-
-@keyframes floatAnimation {
-  0%, 100% {
-      transform: translateY(0);
-  }
-  50% {
-      transform: translateY(-20px); /* Amplitude plus grande pour un flottement accentué */
-  }
-}
-
-.here-section {
-  margin: 5rem 5rem;
-}
-
-@media screen and (max-width: 768px) {
-  .flying-cat-text h2, .here-section h2 {
-    font-size: 32px;
-  }
-}
-}
 
 
 /* Portfolio cards */
@@ -500,7 +429,8 @@ header {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
-  
+  box-shadow: 12px 12px 10px #dce1e4,
+             -12px -12px 10px #ffffff;
 }
 
 .portfolio-card img {
@@ -566,194 +496,21 @@ header {
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #ff0000;
-  color: #ffffff;
+  background-color: #72aee6;
+  color: #000;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #cc0000;
-}
-
-/* Styles for the portfolio single section */
-.portfolio-single-section {
-  display: flex;
-  margin: 3rem 7rem 5rem 7rem;
-}
-
-/* Styles for the portfolio single featured image */
-.portfolio-single-featured-image img {
-  max-width: 100%;
-  height: auto;
-  align-self: center;
-}
-
-/* Styles for the portfolio single info */
-.portfolio-single-info {
-  max-width: 40vw;
-}
-
-.portfolio-single-info h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.portfolio-single-info p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-/* Styles for the portfolio single additional images */
-.portfolio-single-additional-images {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.portfolio-single-additional-image {
-  width: 80vw;
-  margin-bottom: 20px;
-}
-
-.portfolio-single-additional-image img {
-  max-width: 100%;
-  height: auto;
-  border: black 4px solid;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-single-section-2 {
-  max-width: 100%;
-}
-
-.portfolio-single-additional-image-mobile {
-  width: 22%;
-}
-
-.portfolio-single-additional-image-mobile img {
-  border-radius: 20px;
-}
-
-.portfolio-single-additional-image-4 {
-  width: 72%;
-}
-
-@media screen and (max-width: 768px) {
-  .portfolio-single-section {
-    margin: 2rem;
-    display: block;
-  }
-
-  .portfolio-single-info {
-    max-width: 100%;
-  }
-
-  .portfolio-single-info p {
-    font-size: 14px;
-  }
-}
-
-
-
-/* Styling for the entire project wrapper */
-.project-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center; 
-  margin-top: 3rem;
-}
-
-.project-image {
-  width: 60vw;
-  margin: 5rem;
-}
-
-/* Styling for the project image */
-.project-image img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling for the project content */
-.project-content {
-  padding: 20px;
-  background-color: #f8f8f8;
-  border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling for project title */
-.project-content h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-/* Styling for project introduction */
-.project-content p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-/* Styling for "En savoir plus" button */
-.btn-en-savoir-plus {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #298be6;
   color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  transform: translate(-2px, -2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.btn-en-savoir-plus:hover {
-  background-color: #0056b3;
-}
-
-/* Inverse the order for alternate projects */
-.project-wrapper.project-right {
-  flex-direction: row-reverse;
-}
-
-.project-content.project-right {
-  text-align: right;
-}
-
-@media screen and (max-width: 768px) {
-  .project-wrapper {
-    flex-direction: column;
-    margin-bottom: 2rem;
-  }
-
-  .project-image {
-    width: 80vw;
-    margin: 1rem;
-  }
-
-  .project-content {
-    width: 71vw;
-    padding: 1rem;
-  }
-
-  .project-wrapper.project-right {
-    flex-direction: column;
-  }
-
-  .project-content h2, .project-content p {
-    margin: 0;
-  }
-
-  .project-content p {
-    font-size: 14px;
-    margin-bottom: 1rem;
-  }
-}
 
 /* Styles Menu burger */
 @media screen and (min-width: 1200px) {
@@ -866,4 +623,14 @@ Animations
 #toggle:checked + .hamburger + .nav {
   top: 0;
   transform: scale(1);
+}
+
+
+/* Page Mentions Légales */
+#post-3 {
+  margin: 5rem 5rem;
+}
+
+#post-3 h1 {
+  margin-left: 33rem;
 }

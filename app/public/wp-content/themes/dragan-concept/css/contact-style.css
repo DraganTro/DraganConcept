@@ -1,0 +1,117 @@
+/* Page à propos */
+.about-me {
+    margin: 7rem 5rem;
+  }
+  
+  .page-id-12 .hero-text {
+    padding-top: 5rem;
+    padding-bottom: 20rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .page-id-12 .hero-text {
+      padding-top: 20rem;
+    }
+  }
+  
+  /* Page contact */
+  .page-id-16 .hero-section {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  
+  .cat-screen, .cat-laptop {
+    max-width: 100%;
+  }
+  
+  .flying-cat-content {
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto;
+  }
+  
+  .flying-cat-content {
+    margin: 12rem 5rem;
+  }
+  
+  .flying-cat-text {
+    align-self: center;
+    margin-left: 5rem;
+  }
+  
+  .flying-cat-text h2, .here-section h2 {
+    font-family: 'Ultra', serif;
+    font-weight: normal;
+    font-size: 42px;
+  }
+  
+  .flying-cat-image img {
+    width: 30vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flying-cat-text h2, .here-section h2 {
+      font-size: 36px;
+    }
+  }
+  
+  /* Animations page contact */
+  @media screen and (min-width: 1200px) {
+  .animate-from-right.inview {
+    /* Propriétés d'animation pour l'apparition depuis la droite */
+    animation: slideFromRightAnimation 3s ease-out;
+    opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
+  }
+  
+  @keyframes slideFromRightAnimation {
+    0% {
+        transform: translateX(300%); /* Commence en dehors de l'écran */
+    }
+    100% {
+        transform: translateX(0); /* Termine à sa position normale */
+    }
+  }
+  
+  .animate-from-left.inview {
+    /* Propriétés d'animation pour l'apparition depuis la droite */
+    animation: slideFromLeftAnimation 2s ease-out;
+    opacity: 1; /* Laisse l'opacité à 1 pour maintenir le texte visible */
+  }
+  
+  @keyframes slideFromLeftAnimation {
+    0% {
+        transform: translateX(-100%); /* Commence en dehors de l'écran */
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0); /* Termine à sa position normale */
+        opacity: 1;
+    }
+  }
+  
+  .floating-cat.inview {
+    /* Propriétés d'animation pour le flottement accentué */
+    animation: floatAnimation 3s infinite ease-in-out;
+  }
+  
+  @keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Amplitude plus grande pour un flottement accentué */
+    }
+  }
+  
+  .here-section {
+    margin: 5rem 5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flying-cat-text h2, .here-section h2 {
+      font-size: 32px;
+    }
+  }
+  }
+
+/* Animation chat laptop */
