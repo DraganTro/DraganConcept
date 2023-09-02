@@ -37,7 +37,7 @@ get_header();
                     <div class="project-content">
                         <h2><?php echo $titre; ?></h2>
                         <p><?php echo $techno; ?></p>
-                        <a href="<?php echo $lien; ?>" class="btn-en-savoir-plus">En savoir plus</a>
+                        <a href="<?php echo $lien; ?>" class="btn-en-savoir-plus">Je découvre</a>
                     </div>
                 </div>
                 <?php
