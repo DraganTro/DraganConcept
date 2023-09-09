@@ -3,14 +3,14 @@ jQuery(document).ready(function($) {
   
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+      if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
         entry.target.classList.add('inview');
-        observer.unobserve(entry.target); // Cesser d'observer une fois que l'élément est dans la vue
+        observer.unobserve(entry.target); 
       } else {
         entry.target.classList.remove('inview');
       }
     });
-  }, { threshold: 0.5 }); // Définir le seuil à 0.5 (50%)
+  }, { threshold: 0.1 }); // Défini le seuil d'apparition à 0.1 
 
   elements.forEach(element => {
     observer.observe(element);

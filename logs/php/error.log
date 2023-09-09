@@ -137,3 +137,4 @@ Stack trace:
 [23-Aug-2023 15:40:02 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\class-wp-customize-widgets.php on line 905
 [23-Aug-2023 15:41:56 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\class-wp-customize-widgets.php on line 905
 [29-Aug-2023 07:13:17 UTC] PHP Warning:  Array to string conversion in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\formatting.php on line 1104
+[04-Sep-2023 10:20:58 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\draga\Local Sites\dragan-concept\app\public\wp-includes\class-wp-customize-widgets.php on line 905

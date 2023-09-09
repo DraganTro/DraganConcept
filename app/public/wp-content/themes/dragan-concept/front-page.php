@@ -44,7 +44,7 @@ get_header();
             <p>Bienvenue dans l'univers où chaque ligne de code est une note de musique dans une symphonie numérique.</p>
             <p>Je vous invite à plonger dans mon monde de développement, où la technologie rencontre l'art pour façonner des expériences en ligne uniques.</p>
             <p>Explorez mes projets, admirez les détails et laissez-vous emporter par le mariage parfait entre l'innovation technique et l'esthétique captivante.</p>
-            <p><a href="<?php echo esc_url(get_permalink(get_page_by_title('À propos'))); ?>" class="cta-button">Je découvre</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('a-propos')->ID)); ?>" class="cta-button">Je découvre</a></p>
         </div>
     </div>
 </section>
@@ -86,7 +86,7 @@ get_header();
    ?>
 
     <div class="cta-section">
-        <a href="<?php echo esc_url(get_permalink(get_page_by_title('Portfolio'))); ?>" class="cta-button">Je découvre</a>
+    <a href="<?php echo esc_url(get_permalink(get_page_by_path('portfolio')->ID)); ?>" class="cta-button">Je découvre</a>
     </div>
 </section>
 
